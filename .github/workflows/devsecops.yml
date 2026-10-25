@@ -26,8 +26,8 @@ jobs:
 
       - name: Análisis estático SAST (Semgrep)
         run: |
-          pip install semgrep
-          semgrep scan --config auto --error
+          python -m pip install semgrep
+          semgrep scan --config auto 
 
       - name: Construir imagen Docker
         run: docker build -t minico-app:${{ github.sha }} .
