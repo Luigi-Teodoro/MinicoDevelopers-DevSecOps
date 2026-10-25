@@ -1,0 +1,26 @@
+
+vulnerabilities:
+  - id: CVE-2026-102276
+    paths:
+      - "usr/local/lib/node_modules/npm/**"
+    statement: "Dependencia global de npm incluida en la imagen base; exclusión temporal evaluada."
+
+  - id: CVE-2026-102278
+    paths:
+      - "usr/local/lib/node_modules/npm/**"
+    statement: "Dependencia global de npm incluida en la imagen base; exclusión temporal evaluada."
+
+  - id: CVE-2026-13149
+    paths:
+      - "usr/local/lib/node_modules/npm/**"
+    statement: "Dependencia global de npm incluida en la imagen base; exclusión temporal evaluada."
+
+  - id: CVE-2026-14257
+    paths:
+      - "usr/local/lib/node_modules/npm/**"
+    statement: "Dependencia global de npm incluida en la imagen base; exclusión temporal evaluada."
+
+  - id: CVE-2026-69152
+    paths:
+      - "usr/local/lib/node_modules/npm/**"
+    statement: "Dependencia global de npm incluida en la imagen base; exclusión temporal evaluada."
